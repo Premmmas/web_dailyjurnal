@@ -51,7 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         />
         <link rel="icon" href="assets/logo.png" />
     </head>
-    <!-- ganti warna -->
+    
     <body class="bg-primary-subtle">
         <div class="container mt-5 pt-5">
     <div class="row">
@@ -60,7 +60,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="card-body">
             <div class="text-center mb-3">
                 <i class="bi bi-person-circle h1 display-4"></i>
-                <p>Daily Blog</p>
+                <p>Welcome to Daily Blog</p>
                 <hr />
             </div>
 
