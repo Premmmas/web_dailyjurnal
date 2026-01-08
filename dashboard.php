@@ -12,8 +12,7 @@ $jumlah_article = $hasil1->num_rows;
 
 //menghitung jumlah baris data gallery
 //$jumlah_gallery = $hasil2->num_rows;
-?>
-<link rel="icon" href="assets/logo.png" />
+?>  
 <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-center pt-4">
     <div class="col">
         <div class="card border border-primary mb-3 shadow" style="max-width: 18rem;">
