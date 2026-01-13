@@ -3,7 +3,6 @@
     <button type="button" class="btn btn-secondary mb-2" data-bs-toggle="modal" data-bs-target="#modalTambah">
         <i class="bi bi-plus-lg"></i> Tambah Gallery
     </button>
-
     <div class="row">
         <div class="table-responsive" id="galeri_data">
             
@@ -64,7 +63,7 @@ $(document).ready(function(){
 <?php
 include "upload_foto.php";
 
-//jika tombol simpan diklik
+//save
 if (isset($_POST['simpan'])) {
     $judul = $_POST['judul'];
     $tanggal = date("Y-m-d H:i:s");
